@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+   
+
+<head>
+  <meta charset="UTF-8">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style-encrip.css">
+ 
+ 
+
+</head>
+
+
+
+
+<body>
+    <main>
+        <h1> Encriptador de textos </h1>
+        <div >
+            <img src="searching.png" id="searching">
+          </div>
+          
+         <h2 id="h2">¡Aún no has ingresado ningún texto, empieza ahora!</h2>
+
+        <div class="cuadro">
+            <textarea id="textarea"name="textarea" placeholder="Escribe tu texto en minúsculas, sin acentos ni caracteres especiales..."></textarea> 
+        </div>
+
+        <div>
+            <textarea id="textarea2" name="textarea2" ></textarea>
+        </div>
+        
+              
+                <div class="botones">
+                    <button id="encriptar"  type="button">Encriptar</button>
+                    <button id="desencriptar" type="button">Desencriptar</button>
+                    <button id="copiar" type="button">Copiar texto</button>
+                </div>
+                
+                             
+
+                  <div id="mi-popup" class="popup">
+                        <div class="popup-contenido">
+                          <h3>¡Ups!</h3>
+                          <p>No debes ingresar mayusculas, acentos o caracteres especiales.</p>
+                          <button id="cerrar-popup">Cerrar</button>
+                        </div>
+                      </div>
+                   
+            
+            
+        </main>
+
+
+
+        <script src="script.js"></script>
+</body>
+
+
+</html>
